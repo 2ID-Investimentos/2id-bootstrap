@@ -120,6 +120,7 @@ a.sidebar-link:hover {
   display: none;
 }
 
+
 #sidebar:not(.expand) .sidebar-item:hover .has-dropdown + .sidebar-dropdown {
   display: block;
   max-height: 15em;

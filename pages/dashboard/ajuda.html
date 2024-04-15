@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="/assets/css/dashboard.css" />
 
-    <title>2ID - Dashboard</title>
+    <title>2ID - Resumo</title>
     <link rel="shortcut icon" href="/assets/img/2id.png" type="image/png" />
   </head>
 
@@ -29,12 +29,12 @@
             <i class="bx bx-grid-alt"></i>
           </button>
           <div class="sidebar-logo">
-            <a href="/pages/dashboard/dashboard.html">2ID</a>
+            <a href="/pages/dashboard/carteira/resumo.html">2ID</a>
           </div>
         </div>
         <ul class="sidebar-nav">
-          <li class="sidebar-item profile">
-            <a href="/pages/profile.html" class="sidebar-link">
+          <li class="sidebar-item perfil">
+            <a href="/pages/dashboard/perfil.html" class="sidebar-link">
               <i class="bx bx-user-circle"></i>
               <span>Perfil</span>
             </a>
@@ -56,17 +56,33 @@
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar"
             >
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Resumo</a>
+              <li class="sidebar-item resumo">
+                <a
+                  href="/pages/dashboard/carteira/resumo.html"
+                  class="sidebar-link"
+                  >Resumo</a
+                >
               </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Ativos</a>
+              <li class="sidebar-item ativos">
+                <a
+                  href="/pages/dashboard/carteira/ativos.html"
+                  class="sidebar-link"
+                  >Ativos</a
+                >
               </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Análises</a>
+              <li class="sidebar-item analises">
+                <a
+                  href="/pages/dashboard/carteira/analises.html"
+                  class="sidebar-link"
+                  >Análises</a
+                >
               </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Extrato</a>
+              <li class="sidebar-item extratos">
+                <a
+                  href="/pages/dashboard/carteira/extratos.html"
+                  class="sidebar-link"
+                  >Extrato</a
+                >
               </li>
             </ul>
           </li>
@@ -75,68 +91,50 @@
               href="#"
               class="sidebar-link collapsed has-dropdown"
               data-bs-toggle="collapse"
-              data-bs-target="#mercado"
+              data-bs-target="#trade"
               aria-expanded="false"
-              aria-controls="mercado"
+              aria-controls="trade"
             >
               <i class="bx bx-line-chart"></i>
               <span>Trade</span>
             </a>
             <ul
-              id="mercado"
+              id="trade"
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar"
             >
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Mercado</a>
-              </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Patrimonio</a>
-              </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Favoritos</a>
-              </li>
-
-              <li class="sidebar-item">
+              <li class="sidebar-item mercado">
                 <a
-                  href="#"
-                  class="sidebar-link collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#multi-two"
-                  aria-expanded="false"
-                  aria-controls="multi-two"
+                  href="/pages/dashboard/trade/mercado.html"
+                  class="sidebar-link"
+                  >Mercado</a
                 >
-                  Two Links
-                </a>
-                <ul
-                  id="multi-two"
-                  class="sidebar-dropdown list-unstyled collapse"
+              </li>
+              <li class="sidebar-item patrimonio">
+                <a
+                  href="/pages/dashboard/trade/patrimonio.html"
+                  class="sidebar-link"
+                  >Patrimonio</a
                 >
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">Link 1</a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">Link 2</a>
-                  </li>
-                </ul>
+              </li>
+              <li class="sidebar-item favoritos">
+                <a
+                  href="/pages/dashboard/trade/favoritos.html"
+                  class="sidebar-link"
+                  >Favoritos</a
+                >
               </li>
             </ul>
           </li>
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-popup"></i>
-              <span>Notification</span>
-            </a>
-          </li>
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-cog"></i>
-              <span>Setting</span>
+          <li class="sidebar-item ajuda">
+            <a href="/pages/dashboard/ajuda.html" class="sidebar-link">
+              <i class="bx bx-message-dots"></i>
+              <span>Ajuda</span>
             </a>
           </li>
         </ul>
-        <div class="sidebar-footer">
-          <a href="#" class="sidebar-link">
+        <div class="sidebar-footer sair">
+          <a href="/pages/index.html" class="sidebar-link">
             <i class="bx bx-exit"></i>
             <span>Sair</span>
           </a>
@@ -144,7 +142,7 @@
       </aside>
       <div class="main p-3">
         <div class="text-center">
-          <h1>Sidebar Bootstrap 5</h1>
+          <h1>RESUMO</h1>
         </div>
       </div>
     </div>
