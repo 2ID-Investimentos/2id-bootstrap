@@ -157,106 +157,116 @@
               <div class="card-body">
                 <h5 class="card-title">Perfil</h5>
               </div>
-              <form>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <label for="nome_completo">Nome Completo:</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="nome_completo"
-                      value="usuario_logado.nome"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="email">E-mail:</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      value="usuario_logado.email"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="data_nascimento">Data de Nascimento:</label>
-                    <input
-                      type="date"
-                      class="form-control"
-                      id="data_nascimento"
-                      value="usuario_logado.nascimento"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="cpf">CPF:</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="cpf"
-                      value="usuario_logado.cpf"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="cpf">Rua:</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="Rua"
-                      value="usuario_logado.rua"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="bairro">Bairro:</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="bairro"
-                      value="usuario_logado.bairro"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="cidade">Cidade:</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="cidade"
-                      value="usuario_logado.cidade"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="cep">CEP:</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="cep"
-                      value="usuario_logado.cep"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="rg">RG:</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="rg"
-                      value="usuario_logado.rg"
-                    />
-                  </li>
-                  <li class="list-group-item">
-                    <label for="telefone">Telefone:</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="telefone"
-                      value="usuario_logado.telefone"
-                    />
-                  </li>
-                </ul>
-                <div class="card-body">
-                  <button type="submit" class="btn btn-primary">
-                    Salvar Alterações
-                  </button>
-                  <a href="#" class="btn btn-secondary">Alterar Senha</a>
+              <div class="form row">
+                <div class="pessoal col-md-6">
+                  <form>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <label for="nome_completo">Nome Completo:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="nome_completo"
+                          value="usuario_logado.nome"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="email">E-mail:</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          value="usuario_logado.email"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="data_nascimento">Data de Nascimento:</label>
+                        <input
+                          type="date"
+                          class="form-control"
+                          id="data_nascimento"
+                          value="usuario_logado.nascimento"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="cpf">CPF:</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="cpf"
+                          value="usuario_logado.cpf"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="rg">RG:</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="rg"
+                          value="usuario_logado.rg"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="telefone">Telefone:</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="telefone"
+                          value="usuario_logado.telefone"
+                        />
+                      </li>
+                    </ul>
+                  </form>
                 </div>
-              </form>
+                <div class="endereco col-md-6">
+                  <form>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <label for="Rua">Rua:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="Rua"
+                          value="usuario_logado.rua"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="bairro">Bairro:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="bairro"
+                          value="usuario_logado.bairro"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="cidade">Cidade:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="cidade"
+                          value="usuario_logado.cidade"
+                        />
+                      </li>
+                      <li class="list-group-item">
+                        <label for="cep">CEP:</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="cep"
+                          value="usuario_logado.cep"
+                        />
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+              <div class="card-body">
+                <button type="submit" class="btn btn-primary">
+                  Salvar Alterações
+                </button>
+                <a href="#" class="btn btn-secondary">Alterar Senha</a>
+              </div>
             </div>
           </div>
         </div>
